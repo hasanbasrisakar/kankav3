@@ -1,0 +1,1429 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #140D27;
+}
+
+#headlogo {
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.frame {
+    width: 90%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.anasayfa {
+    background-image: url(img/Frame\ 3693.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.head .menu {
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #140D27;
+}
+
+.head .menu a {
+    padding: 0 15px;
+    transition: all .2s;
+}
+
+.head .menu a:hover {
+    color: #D6EF67;
+    transition: all .2s;
+}
+
+.headsocial a {
+    padding: 0 7px;
+    transition: all .2s;
+}
+
+.headsocial a:hover svg path {
+    fill: #D6EF67;
+    transition: all .4s;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aligncenter {
+    align-items: center;
+}
+
+.anasayfa .left {
+    width: 48%;
+}
+
+.anasayfa .left h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    z-index: 999;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 74px;
+    color: #140D27;
+}
+
+.anasayfa .left h1 span{
+    position: relative;
+    z-index: 3;
+}
+
+.anasayfa .left h1 span::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 17px;
+    background: rgba(214, 239, 103, 0.6);
+    z-index: -3;
+}
+
+.anasayfa .left p {
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #534F61;
+}
+
+.anasayfa .right {
+    width: 48%;
+}
+
+.anasayfa .right img {
+    width: 100%;
+}
+
+.anasayfa .strip {
+    margin-bottom: 140px;
+    padding: 50px 0;
+    margin-top: 100px;
+    border: 1px solid #F2F2F2;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #140D27;
+}
+
+.anasayfa .strip p {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.anasayfa .strip i {
+    color: #6200EE;
+    font-style: normal;
+}
+
+.anasayfa .strip img {
+    width: 80%;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    background: #D6EF67;
+    border-radius: 60px;
+    align-items: center;
+    padding: 15px 20px;
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btn svg {
+    border-left: 1px solid #140D27;
+    padding-left: 10px;
+    margin-left: 8px;
+}
+
+.conf {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    color: #140D27;
+}
+
+.conf svg {
+    margin-right: 10px;
+}
+
+.neden {
+    padding-bottom: 50px;
+    background-image: url(img/nedenback.jpg);
+    background-size: 100%;
+    padding-top: 100px;
+}
+
+.neden .left {
+    width: 45%;
+    position: relative;
+}
+
+.neden .left img {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: -0px;
+}
+
+.neden .right {
+    position: relative;
+    width: 50%;
+}
+
+.neden .right a {
+    background-color: #6200EE;
+    padding: 15px 20px;
+    border-radius: 60px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 10%;
+}
+
+.neden .right h2 {
+    margin-bottom: 35px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    color: #140D27;
+}
+
+.neden .right p {
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #140D27;
+}
+
+.neden .right i {
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #6200EE;
+}
+
+.neden .right .flex1 .card {
+    text-align: center;
+    width: 230px;
+    margin-top: 50px;
+}
+
+.neden .right .flex1 .card h3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #140D27;
+}
+
+.neden .right .flex1 .card p {
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #534F61;
+}
+
+.neden .right #arrow {
+    position: absolute;
+    right: 10px;
+    top: -50px;
+}
+
+.hikayemiz {
+    margin-top: 140px;
+    padding-bottom: 200px;
+    background: linear-gradient(180.54deg, rgba(255, 255, 255, 0.06) 47.05%, rgba(100, 115, 154, 0.06) 99.5%);
+    position: relative;
+}
+
+.hikayemiz #arrow1 {
+    position: absolute;
+    right: 20%;
+    top: 70px;
+}
+
+.hikayemiz #circle {
+    position: absolute;
+    right: 0;
+    bottom: -230px;
+}
+
+.hikayemiz h2 {
+    margin-bottom: 120px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #140D27;
+}
+
+
+.hikayemiz h2 span{
+    position: relative;
+    z-index: 3;
+}
+
+.hikayemiz h2 span::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 17px;
+    background: rgba(214, 239, 103, 0.6);
+    z-index: -3;
+}
+
+
+.hikayemiz .flex1 .left {
+    width: 55%;
+}
+
+.hikayemiz .flex1 .left img {
+    width: 100%;
+}
+
+.hikayemiz .flex1 .right {
+    width: 44%;
+}
+
+.hikayemiz .flex1 .right h3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #140D27;
+}
+
+.hikayemiz .flex1 .right p {
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #534F61;
+}
+
+.nasil-calisir {
+    padding: 200px 0;
+    background-image: url(img/Frame\ 3693.png);
+    background-size: 100% auto;
+}
+
+.nasil-calisir a {
+    margin-top: 200px;
+    background-color: #6200EE;
+    padding: 15px 20px;
+    border-radius: 60px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 10%;
+}
+
+.nasil-calisir h2 {
+    margin-bottom: 100px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #140D27;
+}
+
+.nasil-calisir .flex {
+    width: 51%;
+    justify-content: space-between;
+}
+
+.nasil-calisir .flex1 {
+    width: 65%;
+}
+
+.nasil-calisir .flex1 .card {
+    width: calc(100% / 3 - 50px);
+    position: relative;
+    text-align: center;
+}
+
+.nasil-calisir .flex1 .card h3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #140D27;
+}
+
+.nasil-calisir .flex1 .card p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    color: #534F61;
+}
+
+.nasil-calisir {
+    position: relative;
+}
+
+.nasil-calisir img {
+    position: absolute;
+    right: 0;
+    width: 25%;
+    top: 170px;
+}
+
+.brand {
+    background: #140D27;
+    padding: 0px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand b {
+    font-family: 'Ubuntu';
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.brand b svg {
+    position: absolute;
+    right: 140px;
+    top: 20px;
+}
+
+.brand .btn {
+    width: 120px;
+    margin-right: 100px;
+}
+
+.brand img {
+    width: 400px;
+}
+
+.btn svg {
+    border-left: 1px solid #AFC25A;
+    padding-left: 15px;
+    margin-left: 8px;
+}
+
+.iletisim {
+    position: relative;
+}
+
+.iletisim h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #140D27;
+}
+
+.iletisim p {
+    margin-bottom: 60px;
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #534F61;
+}
+
+.iletisim a {
+    padding: 15px 30px;
+    background: #140D27;
+    border-radius: 60px;
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.iletisim .left {
+    width: 37%;
+}
+
+.iletisim .right {
+    width: 63%;
+}
+
+.iletisim .right img {
+    width: 100%;
+}
+
+.kullanici-yorumlari {
+    position: relative;
+    padding: 140px 0 100px 0;
+    background: rgba(100, 115, 154, 0.06);
+}
+
+.kullanici-yorumlari a {
+    border-radius: 60px;
+    background: #6200EE;
+    padding: 15px 20px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.kullanici-yorumlari h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #140D27;
+}
+
+.kullanici-yorumlari p {
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #534F61;
+}
+
+.kullanici-yorumlari .right {
+    width: 45%;
+}
+
+.kullanici-yorumlari .left {
+    width: 45%;
+    z-index: 5;
+}
+
+.kullanici-yorumlari .left img {
+    width: 100%;
+    z-index: 5;
+}
+
+.kullanici-yorumlari #k1 {
+    position: absolute;
+    left: 0;
+    top: 400px;
+    z-index: 1;
+}
+
+.kullanici-yorumlari #heart1 {
+    position: absolute;
+    right: 10%;
+    top: 220px;
+    z-index: 1;
+}
+
+.brand1 {
+    padding: 30px 0;
+    background: #D6EF67;
+}
+
+.brand1 b {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #140D27;
+}
+
+.brand1 i {
+    color: #F9896B;
+    font-style: normal;
+}
+
+.brand1 .frame .flex {
+    margin-top: 40px;
+}
+
+.brand1 .left {
+    width: 50%;
+    padding-left: 40px;
+}
+
+.brand1 .left img {
+    width: 60%;
+    margin-bottom: -34px
+}
+
+.brand1 .right {
+    width: 45%;
+}
+
+.sss {
+    position: relative;
+    padding: 170px 0;
+    padding-bottom: 0;
+    background-image: url(img/Frame\ 3693.png);
+    background-size: 100% auto;
+}
+
+.sss h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #140D27;
+}
+
+.sss h2 span{
+    position: relative;
+    z-index: 3;
+}
+
+.sss h2 span::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 17px;
+    background: rgba(214, 239, 103, 0.6);
+    z-index: -3;
+}
+
+.sss .aciklama {
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #534F61;
+}
+
+.sss .list .card {
+    transition: all .2s;
+    background: none;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 25px 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #140D27;
+}
+
+.sss .list .card svg {
+    margin-left: 20px;
+}
+
+.sss .list .card:hover {
+    cursor: pointer;
+    color: #6200EE;
+    transition: all .2s;
+}
+
+.sss .list .card:hover svg path {
+    fill: #D6EF67;
+    transition: all .2s;
+}
+
+.sss #pointer {
+    left: 0;
+}
+
+.sss .flex1 {
+    position: relative;
+}
+
+.sss .left {
+    width: 40%;
+}
+
+.sss .right {
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+.footer {
+    background: #202020;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.footer b {
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer .menu a {
+    margin: 0 20px;
+    color: #fff;
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer .social a {
+    margin: 0 10px;
+}
+
+.footer .social a:hover svg circle {
+    fill: #D6EF67;
+}
+
+.footer .copyright {
+    margin-top: 70px;
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    color: #E0E0E0;
+    opacity: 0.6;
+}
+
+.panel p {
+    background: none;
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 157% */
+    color: #534F61;
+
+}
+
+#br2 {
+    display: none;
+}
+
+#ky1 {
+    display: none;
+}
+
+
+#logos1 {
+    display: none;
+}
+
+.mobilmenu {
+    display: none;
+}
+
+#menuresp {
+    display: none;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+#hk{
+    display: block;
+}
+
+#hk1{
+    display: none;
+}
+
+#il{
+    display: block;
+}
+
+#il1{
+    display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+    .neden .left img {
+        position: absolute;
+        bottom: -50px;
+        min-width: 700px;
+        width: 100%;
+        left: -200px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .nasil-calisir img {
+        position: absolute;
+        right: 0;
+        width: 25%;
+        min-width: 432px;
+        top: 192px;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .panel p {
+        font-family: 'Sarabun';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        /* or 157% */
+
+        text-align: center;
+
+        color: #534F61;
+    }
+
+    .head {
+        display: none;
+    }
+
+    .mobilmenu {
+        z-index: 99999;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: calc(100%-40px);
+        align-items: center;
+        height: 6rem;
+        position: sticky;
+        background-color: white;
+        padding: 0 20px;
+
+    }
+
+    .logo1 img {
+        margin-left: 1rem;
+        width: 60px;
+    }
+
+
+
+    .menubuton:hover {
+        cursor: pointer;
+    }
+
+    #menuresp {
+        display: block;
+        background-color: #FBFAF8;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        padding: 20px;
+        width: calc(100% - 40px);
+        z-index: 99999;
+        transition: all .5s;
+    }
+
+    .menuresp a{
+        display: block;
+        font-family: 'Sarabun';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 20px 0;
+        border-bottom:  1px solid #E0E0E0;
+    }
+
+    .menuresp .menubuton {
+        margin-right: 0rem;
+        margin-top: 1.3rem;
+        text-align: right;
+    }
+
+    #logos {
+        display: none;
+    }
+
+    #logos1 {
+        display: block;
+    }
+
+    .anasayfa .flex1 {
+        display: block;
+    }
+
+    .anasayfa .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .anasayfa .right {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .anasayfa .left h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .anasayfa .left h1 span{
+        position: relative;
+        z-index: 3;
+    }
+    
+    .anasayfa .left h1 span::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 10px;
+        background: rgba(214, 239, 103, 0.6);
+        z-index: -3;
+    }
+
+    .anasayfa .left p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .anasayfa .flex {
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+
+    .anasayfa .strip {
+        margin: 30px 0;
+    }
+
+    .anasayfa .strip img {
+        margin: auto;
+    }
+
+    .anasayfa .btn {
+        width: 32%;
+        font-size: 14px;
+    }
+
+    #hk{
+        display: none;
+    }
+
+    #hk1{
+        display: block;
+    }
+
+    
+    #il{
+        display: none;
+    }
+
+    #il1{
+        display: block;
+    }
+
+    .neden .right #arrow {
+        position: absolute;
+        right: 0px;
+        width: 30%;
+        top: -75px;
+        transform: rotate(34deg); 
+    }
+
+    .neden .right {
+        position: relative;
+        padding-right: 0;
+    }
+
+    .neden {
+        background: #D6EF67;
+        text-align: center;
+        display: block;
+        padding-bottom: 0;
+        padding-top: 60px;
+    }
+
+    .neden .frame .flex1 {
+        flex-direction: column-reverse;
+    }
+
+    .neden .frame .flex1 .left {
+        width: 100%;
+    }
+    .neden .right{
+        width: 100%;
+    }
+    .neden .right h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .neden .right p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .neden .right i {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .neden .right a {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .neden .right .flex1 .card {
+        text-align: center;
+        width: 279px;
+        margin: auto;
+        margin-top: 43px;
+    }
+
+    .neden .right .flex1 {
+        flex-wrap: wrap;
+    }
+
+    .neden .right .flex1 .card h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .neden .right .flex1 .card p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .neden .left img {
+        margin-left: -70px;
+        position: static;
+        bottom: -50px;
+        width: 100%;
+        margin-top: 50px;
+        min-width: auto;
+        margin-bottom: -4px;
+    }
+
+    .hikayemiz {
+        margin-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+    .hikayemiz h2 {
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 30px;
+    }
+
+    .hikayemiz h2 span::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 10px;
+        background: rgba(214, 239, 103, 0.6);
+        z-index: -3;
+    }
+
+    .hikayemiz .flex1 {
+        display: block;
+    }
+
+    .hikayemiz .flex1 .left {
+        width: 100%;
+    }
+
+    .hikayemiz .flex1 .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hikayemiz .flex1 .right h3 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .hikayemiz .flex1 .right p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .hikayemiz #circle {
+        display: none;
+    }
+
+    .hikayemiz #arrow1 {
+        top: auto;
+        bottom: 250px;
+        right: 7%;
+        width: 15%;
+    }
+
+    .nasil-calisir {
+        padding: 30px 0;
+        padding-top: 70px;
+        text-align: center;
+    }
+
+    .nasil-calisir #arrow3,
+    .nasil-calisir #arrow4 {
+        display: none;
+    }
+
+    .nasil-calisir .right1 {
+        position: relative;
+        height: 400px;
+    }
+
+    .nasil-calisir img {
+        position: absolute;
+        right: 0;
+        min-width: auto;
+        width: 300px;
+        top: auto;
+        bottom: -150px;
+        z-index: 7;
+    }
+
+    .nasil-calisir .flex1 {
+        display: block;
+        width: 100%;
+    }
+
+    .nasil-calisir .flex1 .card {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .nasil-calisir a {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .nasil-calisir h2 {
+        font-size: 24px;
+        line-height: 34px;
+        margin: 40px 0;
+        margin-bottom: 50px;
+    }
+
+    .nasil-calisir .flex1 .card h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .nasil-calisir .flex1 .card p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .brand {
+        text-align: center;
+        display: block;
+        padding-bottom: 40px;
+    }
+
+    .brand img {
+        width: 100%;
+    }
+
+    .brand b {
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 40px;
+    }
+
+    .brand .btn {
+        width: 120px;
+        text-align: center;
+        margin-right: 0;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .brand b span {
+        z-index: 10;
+    }
+
+    .brand b svg {
+        position: absolute;
+        right: -20px;
+        top: 0px;
+        width: 40%;
+        z-index: 1;
+    }
+
+    #br1 {
+        display: none;
+    }
+
+    #br2 {
+        display: block;
+        margin-top: -100px;
+        z-index: 1;
+        margin-bottom: -50px;
+    }
+
+    .iletisim {
+        padding-top: 40px;
+    }
+
+    .iletisim .flex1 {
+        display: block;
+        text-align: center;
+    }
+
+    .iletisim .left {
+        width: 100%;
+    }
+
+    .iletisim .right {
+        width: 100%;
+    }
+
+    .iletisim h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .iletisim p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .iletisim a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    #ky2 {
+        display: none;
+    }
+
+    #ky1 {
+        display: block;
+    }
+
+    .kullanici-yorumlari {
+        padding: 60px 0;
+    }
+
+    .kullanici-yorumlari .flex1 {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .kullanici-yorumlari .right,
+    .kullanici-yorumlari .left {
+        width: 100%;
+    }
+
+    .kullanici-yorumlari h2 {
+        margin-top: 30px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .kullanici-yorumlari p,
+    .kullanici-yorumlari a {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .kullanici-yorumlari #k1 {
+        position: absolute;
+        left: 0;
+        top: auto;
+        bottom: -20px;
+        z-index: 1;
+    }
+
+    .kullanici-yorumlari #heart1 {
+        position: absolute;
+        right: 30px;
+        top: 40px;
+        z-index: 1;
+    }
+
+    .brand1 .flex1 {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .brand1 .right,
+    .brand1 .left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .brand1 .left img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .brand1 b {
+        margin-top: 30px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .brand1 {
+        padding: 50px 0;
+        padding-bottom: 30px;
+        background: #D6EF67;
+    }
+
+    .brand1 .frame .flex {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .sss {
+        padding: 50px 0;
+        padding-bottom: 0;
+    }
+
+    .sss .flex1 {
+        display: block;
+    }
+
+    .sss h2 {
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .sss h2 span::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 10px;
+        background: rgba(214, 239, 103, 0.6);
+        z-index: -3;
+    }
+
+    .sss .aciklama {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .sss .list .flex1 {
+        display: flex;
+    }
+
+    .sss .list .card {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .sss #pointer {
+        width: 60%;
+        margin-top: 50px;
+        height: auto;
+    }
+
+    .sss .left {
+        width: 100%;
+    }
+
+    .sss .right {
+        width: 100%;
+        position: static;
+        right: 0;
+    }
+
+    .footer {
+        background: #140D27;
+    }
+
+    .footer .flex1 {
+        flex-direction: column;
+    }
+
+    .footer .menu a {
+        display: block;
+        margin: 40px 0;
+    }
+}
