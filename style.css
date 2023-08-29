@@ -489,26 +489,18 @@ a {
     color: #140D27;
 }
 
-.iletisim p {
-    margin-bottom: 60px;
-    font-family: 'Sarabun';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 34px;
-    color: #534F61;
-}
 
-.iletisim a {
-    padding: 15px 30px;
-    background: #140D27;
-    border-radius: 60px;
-    font-family: 'Sarabun';
+.iletisim .left a {
+    color: var(--sub, #534F61);
+    font-family: Ubuntu;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    color: #FFFFFF;
+    line-height: 34px; /* 170% */
+    text-decoration-line: underline;
+    width: 100%;
+    word-wrap: break-word;
+
 }
 
 .iletisim .left {
