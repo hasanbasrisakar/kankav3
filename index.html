@@ -650,9 +650,18 @@
         <script>
             var acc = document.getElementsByClassName("accordion");
             var i;
-
+        
             for (i = 0; i < acc.length; i++) {
                 acc[i].addEventListener("click", function () {
+                    // Aktif olan tüm panelleri kapat
+                    for (var j = 0; j < acc.length; j++) {
+                        var panel = acc[j].nextElementSibling;
+                        if (panel.style.maxHeight) {
+                            panel.style.maxHeight = null;
+                            acc[j].classList.remove("active");
+                        }
+                    }
+        
                     this.classList.toggle("active");
                     var panel = this.nextElementSibling;
                     if (panel.style.maxHeight) {
@@ -663,6 +672,7 @@
                 });
             }
         </script>
+        
 
         <svg id="pointer" xmlns="http://www.w3.org/2000/svg" width="502" height="657" viewBox="0 0 502 657" fill="none">
             <path
