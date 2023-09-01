@@ -401,10 +401,15 @@ a {
     width: 65%;
 }
 
+
+.nasil-calisir .flex1 svg {
+    margin-right: 120px;
+}
+
 .nasil-calisir .flex1 .card {
     width: calc(100% / 3 - 50px);
     position: relative;
-    text-align: center;
+    text-align: left;
 }
 
 .nasil-calisir .flex1 .card h3 {
@@ -476,21 +481,20 @@ a {
     margin-left: 8px;
 }
 
-.iletisim {
+.basında-biz {
     position: relative;
 }
 
-.iletisim h2 {
+.basında-biz h2 {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 60px;
     color: #140D27;
 }
 
 
-.iletisim .left a {
+.basında-biz .left a {
     color: var(--sub, #534F61);
     font-family: Ubuntu;
     font-size: 20px;
@@ -503,15 +507,20 @@ a {
 
 }
 
-.iletisim .left {
+.basında-biz .left {
     width: 37%;
 }
 
-.iletisim .right {
+
+.basında-biz .left img {
+    width: 100%
+}
+
+.basında-biz .right {
     width: 63%;
 }
 
-.iletisim .right img {
+.basında-biz .right img {
     width: 100%;
 }
 
@@ -810,6 +819,103 @@ a {
 
 #il1{
     display: none;
+}
+
+.iletisim{
+    background: var(--dark, #202020);
+    border-bottom: 1px solid #4F4F4F;
+    padding: 20px 0 60px 0;
+}
+
+.iletisim h2{
+    color: var(--white, #FFF);
+    font-family: Ubuntu;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+
+.iletisim p{
+    color: var(--Gray-4, #BDBDBD);
+    font-family: Sarabun;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; /* 170% */
+    margin-bottom: 40px;
+}
+.iletisim label{
+    display: block;
+    color: var(--Gray-4, #BDBDBD);
+    font-family: Sarabun;
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 34px; /* 170% */
+}
+
+.iletisim textarea{
+    font-family: Sarabun;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background: var(--white, #FFF);
+    border:none;
+    width: 100%;
+    height: 180px;
+    padding: 10px 7px;
+    font-size: 20px;
+    outline: none;
+}
+
+.iletisim button{
+    border-radius: 60px;
+    padding: 15px 50px;
+    background: var(--green, #D6EF67);
+    color: var(--dark, #202020);
+    text-align: center;
+    font-family: Sarabun;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.iletisim button:hover{
+    cursor: pointer;
+}
+
+.iletisim .flex1 .left, .iletisim .flex1 .right{
+    width: 40%;
+}
+
+.iletisim input{
+    font-family: Sarabun;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background: var(--white, #FFF);
+    border:none;
+    width: 100%;
+    padding: 10px 7px;
+    font-size: 20px;
+    outline: none;
+}
+
+.footer .frame .aligncenter{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #4F4F4F;
+}
+
+.copyright a{
+    color: var(--Gray-6, #F2F2F2);
+    text-align: right;
+    font-family: Sarabun;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 216.667% */
+    margin-left: 35px;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -1126,7 +1232,7 @@ a {
 
     .hikayemiz #arrow1 {
         top: auto;
-        bottom: 250px;
+        bottom: 20px;
         right: 7%;
         width: 15%;
     }
@@ -1135,6 +1241,9 @@ a {
         padding: 30px 0;
         padding-top: 70px;
         text-align: center;
+    }
+    .nasil-calisir .flex1 svg {
+        margin-right: 0px;
     }
 
     .nasil-calisir #arrow3,
@@ -1165,6 +1274,7 @@ a {
     .nasil-calisir .flex1 .card {
         width: 100%;
         margin-bottom: 50px;
+        text-align: center;
     }
 
     .nasil-calisir a {
@@ -1236,34 +1346,34 @@ a {
         margin-bottom: -50px;
     }
 
-    .iletisim {
+    .basında-biz {
         padding-top: 40px;
     }
 
-    .iletisim .flex1 {
+    .basında-biz .flex1 {
         display: block;
         text-align: center;
     }
 
-    .iletisim .left {
+    .basında-biz .left {
         width: 100%;
     }
 
-    .iletisim .right {
+    .basında-biz .right {
         width: 100%;
     }
 
-    .iletisim h2 {
+    .basında-biz h2 {
         font-size: 24px;
         line-height: 34px;
     }
 
-    .iletisim p {
+    .basında-biz p {
         font-size: 14px;
         line-height: 22px;
     }
 
-    .iletisim a {
+    .basında-biz a {
         font-size: 20px;
         line-height: 26px;
     }
@@ -1331,6 +1441,34 @@ a {
     .brand1 .left img {
         width: 100%;
         margin-top: 20px;
+    }
+
+    .copyright .flex1{
+        display: block;
+    }
+
+    .copyright .right a{
+        display: block;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .iletisim{
+        background-color: #140D27;
+        text-align: center;
+    }
+
+    .iletisim .frame .flex1{
+        display: block;
+    }
+
+    .iletisim label{
+        text-align: left;
+    }
+    
+    .iletisim .frame .flex1 .right, .iletisim .frame .flex1 .left{
+        width:calc(100% - 20px);
     }
 
     .brand1 b {
