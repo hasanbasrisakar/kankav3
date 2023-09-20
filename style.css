@@ -715,7 +715,7 @@ a {
 }
 
 .footer {
-    background: #202020;
+    background: var(--dark, #140D27);
     color: #fff;
     padding: 80px 0;
 }
@@ -748,7 +748,7 @@ a {
     margin: 0 10px;
 }
 
-.footer .social a:hover svg circle {
+.footer .social a svg circle {
     fill: #D6EF67;
 }
 
@@ -822,7 +822,7 @@ a {
 }
 
 .iletisim{
-    background: var(--dark, #202020);
+    background: var(--dark, #140D27);
     border-bottom: 1px solid #4F4F4F;
     padding: 20px 0 60px 0;
 }
@@ -1545,7 +1545,7 @@ a {
     }
 
     .footer {
-        background: #140D27;
+        background: var(--dark, #140D27);
     }
 
     .footer .flex1 {
