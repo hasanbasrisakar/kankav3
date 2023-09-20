@@ -75,10 +75,19 @@
             }
         }
 
+        var menuLinks = document.querySelectorAll('.menuresp a');
+        for (var i = 0; i < menuLinks.length; i++) {
+            menuLinks[i].addEventListener('click', function () {
+                gizle('menuresp');
+            });
+        }
+
         function gizle(ID) {
             var secilenID = document.getElementById(ID);
             secilenID.style.left = "-100%";
         }
+
+        
     </script>
     <div class="frame">
         <div class="anasayfa">
