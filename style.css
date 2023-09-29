@@ -8,6 +8,10 @@ a {
     color: #140D27;
 }
 
+.mobilfooter{
+    display: none;
+}
+
 #headlogo {
     font-family: 'Signika Negative';
     font-style: normal;
@@ -490,6 +494,8 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
+    margin-bottom: 0;
+    margin-top: -40px;
     color: #140D27;
 }
 
@@ -730,6 +736,10 @@ a {
     color: #FFFFFF;
 }
 
+.footer .menu a:hover{
+    color: #D6EF67;
+}
+
 .footer .menu a {
     margin: 0 20px;
     color: #fff;
@@ -821,6 +831,27 @@ a {
     display: none;
 }
 
+
+
+.iletisim .flex1 .right h5{
+    color: var(--Gray-4, #BDBDBD);
+font-family: Sarabun;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 133.333% */
+margin-bottom: 0;
+}
+
+.iletisim .flex1 .right p{
+    color: var(--white, #FFF);
+font-family: Sarabun;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 170% */
+}
+
 .iletisim{
     background: var(--dark, #140D27);
     border-bottom: 1px solid #4F4F4F;
@@ -846,14 +877,12 @@ a {
     margin-bottom: 40px;
 }
 .iletisim label{
-    display: block;
     color: var(--Gray-4, #BDBDBD);
     font-family: Sarabun;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    margin-bottom: 10px;
     font-weight: 500;
-    line-height: 34px; /* 170% */
+    line-height: 50px; /* 188.889% */
 }
 
 .iletisim textarea{
@@ -862,7 +891,7 @@ a {
     margin-bottom: 20px;
     background: var(--white, #FFF);
     border:none;
-    width: 100%;
+    width: calc(100% - 7px);
     height: 180px;
     padding: 10px 7px;
     font-size: 20px;
@@ -944,6 +973,76 @@ a {
 
 
 @media only screen and (max-width: 1000px) {
+
+    .mcopyright{
+
+        margin: 50px 0;
+        color: var(--Gray-5, #E0E0E0);
+font-family: Sarabun;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 216.667% */
+    }
+
+    .msocial a{
+        margin: 0 10px;
+    }
+
+    .madres{padding: 40px;}
+
+    .madres p{
+        color: var(--white, #FFF);
+text-align: center;
+font-family: Sarabun;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+margin-bottom: 40px;
+    }
+
+    .madres i{
+        color: var(--Gray-4, #BDBDBD);
+text-align: center;
+font-family: Sarabun;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 184.615% */
+font-style: normal;
+display: block;
+margin-top: 20px;
+    }
+
+    .mmenu{
+        border-bottom: 1px solid #4F4F4F;
+
+    }
+
+    .mobilfooter .mmenu a{
+        margin: 30px 0;
+        color: var(--white, #FFF);
+text-align: center;
+font-family: Sarabun;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: block;
+    }
+        
+    .mobilfooter{
+        display: block;
+        background-color: #140D27;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .footer{
+        display: none;
+    }
+
     .panel p {
         font-family: 'Sarabun';
         font-style: normal;
@@ -967,7 +1066,7 @@ a {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        width: calc(100%-40px);
+        width: calc(100% - 40px);
         align-items: center;
         height: 6rem;
         position: sticky;
@@ -1102,7 +1201,7 @@ a {
     .neden .right #arrow {
         position: absolute;
         right: 0px;
-        width: 30%;
+        width: 40%;
         top: -75px;
         transform: rotate(34deg); 
     }
@@ -1364,6 +1463,7 @@ a {
     }
 
     .basında-biz h2 {
+        margin: auto;
         font-size: 24px;
         line-height: 34px;
     }
@@ -1466,9 +1566,16 @@ a {
     .iletisim label{
         text-align: left;
     }
+    .iletisim .frame .flex1 .right{
+        display: none;
+    }
+
+    .iletisim .frame .flex1 .left .flex1 .right{
+        display: block;
+    }
     
     .iletisim .frame .flex1 .right, .iletisim .frame .flex1 .left{
-        width:calc(100% - 20px);
+        width:calc(100% - 8px);
     }
 
     .brand1 b {
