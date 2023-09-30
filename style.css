@@ -1216,7 +1216,7 @@ display: block;
         text-align: center;
         display: block;
         padding-bottom: 0;
-        padding-top: 60px;
+        padding-top: 130px;
     }
 
     .neden .frame .flex1 {
@@ -1281,8 +1281,9 @@ display: block;
     }
 
     .hikayemiz {
-        margin-top: 50px;
+        margin-top: 0;
         padding-bottom: 50px;
+        padding-top: 100px;
 
     }
 
@@ -1338,7 +1339,7 @@ display: block;
 
     .nasil-calisir {
         padding: 30px 0;
-        padding-top: 70px;
+        padding-top: 130px;
         text-align: center;
     }
     .nasil-calisir .flex1 svg {
@@ -1446,7 +1447,7 @@ display: block;
     }
 
     .basında-biz {
-        padding-top: 40px;
+        padding-top: 130px;
     }
 
     .basında-biz .flex1 {
@@ -1557,6 +1558,7 @@ display: block;
     .iletisim{
         background-color: #140D27;
         text-align: center;
+        padding-top: 80px;
     }
 
     .iletisim .frame .flex1{
